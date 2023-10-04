@@ -3,19 +3,21 @@ public class Calculadora {
 	private int _n2;
 
 	public Calculadora() {
-		throw new UnsupportedOperationException();
+		this._n1=0;
+		this._n2=0
 	}
 
 	public Calculadora(int aNum_1, int aNum2) {
-		throw new UnsupportedOperationException();
+		this._n1=aNum_1;
+		this._n2=aNum2;
 	}
 
 	public int sumar() {
-		throw new UnsupportedOperationException();
+		return this._n1+this._n2;
 	}
 
 	public int multiplicar() {
-		throw new UnsupportedOperationException();
+		return this._n1*this._n2;
 	}
 
 	public void setN1(int aNum1) {
