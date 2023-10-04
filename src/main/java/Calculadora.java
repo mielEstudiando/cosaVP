@@ -4,7 +4,7 @@ public class Calculadora {
 
 	public Calculadora() {
 		this._n1=0;
-		this._n2=0
+		this._n2=0;
 	}
 
 	public Calculadora(int aNum_1, int aNum2) {
